@@ -37,7 +37,7 @@ body {
   width: 100vw;
   padding: 1rem;
   display: flex;
-  overflow: auto;
+  overflow-x: hidden;
   color: var(--text);
   background: var(--bg);
   align-items: flex-start;
@@ -132,7 +132,7 @@ button {
 }
 
 /* ========= Mobile ===================== */
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 700px) {
   body {
     align-items: center;
   }
